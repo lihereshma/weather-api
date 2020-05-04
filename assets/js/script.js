@@ -6,7 +6,7 @@ var box = document.querySelector( 'main .wrapper' );
 function weatherData( event ) {
   event.preventDefault();
   var name = document.getElementById( 'searchInput' ).value;
-  var url = "http://api.openweathermap.org/data/2.5/weather?q="+name+"&appid="+key+"&units=metric";
+  var url = "https://api.openweathermap.org/data/2.5/weather?q="+name+"&appid="+key+"&units=metric";
   
   fetch( url )
   .then(function (response) {
