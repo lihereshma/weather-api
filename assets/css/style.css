@@ -106,11 +106,48 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+body { background: linear-gradient(to right, #3e5151, #decba4); }
+.heading { margin-bottom: 30px; }
 
+header .wrapper {
+  padding: 30px 0px;
+  text-align: center; 
+}
 
+h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 900;
+}
 
+input[type="text"] {
+  width: 30%; 
+  padding: 10px;
+  border-radius: 15px 0px 15px 15px;
+  border: 3px solid #fff;
+  color: #7c7c7c; 
+  font-size: 15px;  
+  outline: none; 
+}
 
+input[type="button"] {
+  width: 7%;
+  padding: 1%;
+  border-radius: 0px 15px 15px;
+  border: 3px solid #7c7c7c;
+  margin-left: 1%;
+  background-color: #7c7c7c;
+  color: #fff; 
+  font-size: 15px;
+  font-weight: 900; 
+  outline: none;  
+}
 
+input[type="button"]:hover {
+  transition-delay: 0.3s;
+  box-shadow: 5px 5px 20px #dbd8d8;
+}
 
 /*=================================
   Header styling ends here
@@ -119,36 +156,34 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+main p { 
+  margin: 2% 0; 
+  color: #fff;
+}
 
+main p:not(:first-child) {
+  font-weight: bolder; 
+  font-size: 20px; 
+}
 
+main .container {
+  padding: 5% 10%;
+  margin: 5% 0;
+  background: rgba(0, 0, 0, 0.5); 
+  text-align: center;
+}
 
+.nameElement {
+  font-size: 40px;  
+  font-weight: 900;
+  letter-spacing: 2px;
+}
 
-
-
-
-
+.iconElement{
+  width: 6%;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 50px;
+}
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
